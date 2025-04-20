@@ -12,7 +12,7 @@ This project is an interactive **Student Portal** where users can manage and vie
 ## Tech Stack
 - **Backend**: ASP.NET Core MVC
 - **Frontend**: HTML, CSS, JavaScript, Bootstrap
-- **Database**: SQL Server / SQLite
+- **Database**: SQL Server 
 
 ## Installation
 
