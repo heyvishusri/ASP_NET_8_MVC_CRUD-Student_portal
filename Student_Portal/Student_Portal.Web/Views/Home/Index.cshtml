@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center p-4 mt-5 mb-5 mx-auto"
+     style="max-width: 800px; background: linear-gradient(135deg, #74ebd5, #ACB6E5); border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+
+    <h1 class="display-4 mb-3" style="font-weight: bold; text-shadow: 1px 1px 3px rgba(0,0,0,0.2);">
+        Student Details Portal
+    </h1>
+
+    <p class="lead mb-4" style="font-size: 1.2rem;">
+        Manage and view student information easily.
+    </p>
+
+    <div class="d-flex flex-column flex-md-row justify-content-center gap-3">
+        <a class="btn btn-success btn-lg" href="/Students/Add" style="box-shadow: 0 2px 6px rgba(0,0,0,0.2); transition: transform 0.3s;">
+            Add New Student
+        </a>
+
+        <a class="btn btn-primary btn-lg" href="/Students/List" style="box-shadow: 0 2px 6px rgba(0,0,0,0.2); transition: transform 0.3s;">
+            View All Students
+        </a>
+    </div>
+</div>
+
+<!-- Small hover animation -->
+<style>
+    a.btn:hover {
+        transform: scale(1.05);
+    }
+</style>
+
+

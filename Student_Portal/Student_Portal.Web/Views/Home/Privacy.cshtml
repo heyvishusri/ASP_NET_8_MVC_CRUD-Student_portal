@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+
+<div class="text-center mt-5 p-4" style="background-color: #f8f9fa; border-radius: 15px;">
+    <h1 class="display-4 mb-4">Privacy Policy</h1>
+
+    <p class="lead">
+        Your privacy is important to us. We are committed to protecting your personal information.
+    </p>
+
+    <p>
+        This portal collects student information solely for academic and administrative purposes.
+        We do not share your data with third parties without your consent.
+    </p>
+
+    <p>
+        By using this platform, you agree to the terms of this privacy policy.
+        If you have any questions or concerns, feel free to contact us below.
+    </p>
+
+    <hr class="my-4" style="border-color: #6c757d;">
+
+    <h2 class="mb-3">Contact Us</h2>
+    <p class="mb-4">Have questions about our Privacy Policy? Send us a message!</p>
+
+    <form class="mx-auto" style="max-width: 500px;" action="/contact" method="post">
+        <div class="form-group mb-3">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" id="name" name="name" class="form-control" required>
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="email" class="form-label">Your Email</label>
+            <input type="email" id="email" name="email" class="form-control" required>
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea id="message" name="message" class="form-control" rows="4" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+</div>
+
+
